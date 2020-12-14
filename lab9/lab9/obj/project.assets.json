@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "lab6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/lab6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab6.dll": {}
+        }
+      },
+      "lab7/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/lab7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lab7.dll": {}
+        }
+      },
+      "LinqExamples/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LinqExamples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinqExamples.dll": {}
+        }
+      },
+      "list8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/list8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/list8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab6/1.0.0": {
+      "type": "project",
+      "path": "../../lab6/lab6/lab6.csproj",
+      "msbuildProject": "../../lab6/lab6/lab6.csproj"
+    },
+    "lab7/1.0.0": {
+      "type": "project",
+      "path": "C:\\Users\\rav57\\source\\repos\\lab7\\lab7\\lab7.csproj",
+      "msbuildProject": "C:\\Users\\rav57\\source\\repos\\lab7\\lab7\\lab7.csproj"
+    },
+    "LinqExamples/1.0.0": {
+      "type": "project",
+      "path": "../../WykladLINQ/LinqExamples/LinqExamples.csproj",
+      "msbuildProject": "../../WykladLINQ/LinqExamples/LinqExamples.csproj"
+    },
+    "list8/1.0.0": {
+      "type": "project",
+      "path": "../../list8/list8/list8.csproj",
+      "msbuildProject": "../../list8/list8/list8.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LinqExamples >= 1.0.0",
+      "lab6 >= 1.0.0",
+      "lab7 >= 1.0.0",
+      "list8 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rav57\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\prace\\dotnet\\visualStudio\\lab9\\lab9\\lab9.csproj",
+      "projectName": "lab9",
+      "projectPath": "D:\\prace\\dotnet\\visualStudio\\lab9\\lab9\\lab9.csproj",
+      "packagesPath": "C:\\Users\\rav57\\.nuget\\packages\\",
+      "outputPath": "D:\\prace\\dotnet\\visualStudio\\lab9\\lab9\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rav57\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\rav57\\source\\repos\\lab7\\lab7\\lab7.csproj": {
+              "projectPath": "C:\\Users\\rav57\\source\\repos\\lab7\\lab7\\lab7.csproj"
+            },
+            "D:\\prace\\dotnet\\visualStudio\\lab6\\lab6\\lab6.csproj": {
+              "projectPath": "D:\\prace\\dotnet\\visualStudio\\lab6\\lab6\\lab6.csproj"
+            },
+            "D:\\prace\\dotnet\\visualStudio\\list8\\list8\\list8.csproj": {
+              "projectPath": "D:\\prace\\dotnet\\visualStudio\\list8\\list8\\list8.csproj"
+            },
+            "D:\\prace\\dotnet\\visualStudio\\WykladLINQ\\LinqExamples\\LinqExamples.csproj": {
+              "projectPath": "D:\\prace\\dotnet\\visualStudio\\WykladLINQ\\LinqExamples\\LinqExamples.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
